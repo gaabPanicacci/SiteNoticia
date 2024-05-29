@@ -23,5 +23,12 @@ autor						VARCHAR(255),
 PRIMARY KEY	(id_noticia)
 );
 INSERT INTO tb_noticia (titulo,noticia,imagem,fonte,autor) VALUES 
-('Nosso primeiro POST','Criando um site de noticia','foto1.jpg','Etec Pinhal','Jorge');
+('Primeiro POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
+('Segundo POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
+('Terceiro POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
+('Quarto POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
+('Quinto POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
+('Sexto POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
+('Setima POST','Criando um site de noticia','exemplo.jpg','Etec Pinhal','Jorge');
 SELECT * FROM tb_noticia;
+SELECT * FROM tb_noticia ORDER BY RAND() LIMIT 6;

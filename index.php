@@ -25,7 +25,26 @@
             </ul>
         </nav>
         <main>
-
+            <article>i
+                <img src="img/exemplo.jpg" alt="foto noticia" class="fotonoticia">
+                <p class="textonoticia"> Gumball ensina a fazer uma receita de bolo de carne.</p>
+                <img src="img/saibamais.png" alt="Saiba Mais..." class="saibamais">
+            </article>
+            <article>
+                assunto 2
+            </article>
+            <article>
+                assunto3
+            </article>
+            <article>
+                assunto4
+            </article>
+            <article>
+                assunto5
+            </article>
+            <article>
+                assunto6
+            </article>
         </main>
         <footer>
             <img src="img/Rectangle 20.png" alt="Logo Cartoon">

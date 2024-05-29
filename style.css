@@ -73,3 +73,29 @@ footer{
     padding: 3px;
     background-color: rgb(109, 112, 112);
 }
+.fotonoticia{
+    width: 350px;
+    border-radius: 15px;
+}
+.textonoticia{
+    width: 312px;
+    font-size: 16px;
+}
+.saibamais{
+    float: right;
+}
+main{
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+}
+article{
+    background-color: #ff0000 ;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 340px;
+}
