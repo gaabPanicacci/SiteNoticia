@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+#container {
+    width: 1280px ;
+    background-color:black;
+    margin: auto;
+}
+header{
+    width: 1280px;
+    min-height: 200px;
+    background-color: rgb(109, 112, 112);
+    display: flex;
+    align-items: center;
+}
+.titulos{
+    width: 700px;
+    height:  200px;
+    margin-left: 100px;
+}
+.logo{
+    width: 148px;
+    height: 96px;
+    margin-left: 50px;
+}
+.titulo1{
+    font-family: "Irish Grover", system-ui;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: left;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
+.titulo2{
+    font-family: "Indie Flower", cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    width: 1280px;
+    height: 60px ;
+    background-color: black;
+    font-size: 20px;
+    font-family: "Indie Flower",;
+    display: flex;
+    justify-content: center;
+}
+nav, ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+nav ul li{
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:link, a:visited, a:active {
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 66, 66);
+    display: block;
+    width: 200px;
+}
+footer{
+    width: 1280px;
+    text-align: right;
+    padding: 3px;
+    background-color: rgb(109, 112, 112);
+}
