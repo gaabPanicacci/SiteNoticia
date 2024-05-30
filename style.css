@@ -89,6 +89,7 @@ main{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 30px;
+    color: white;
 }
 article{
     background-color: #ff0000 ;
