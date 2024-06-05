@@ -39,6 +39,7 @@ include "conexao.php";
                 $dados = mysqli_fetch_array($resultado);
                  echo "titulo: ".$dados['titulo'].'<br>';
                  echo "Data e hora: ".$dados['datahora'].'<br>'; 
+                 //foto editada 
                  echo "Imagem: <img src= 'img/".$dados['imagem']."' width='200'><br>"; 
                  echo "Fonte: ".$dados['fonte'].'<br>'; 
                  echo "Autor: ".$dados['autor'].'<br>'; 
